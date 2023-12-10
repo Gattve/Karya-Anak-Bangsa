@@ -1,7 +1,7 @@
 <?php
 include_once 'D:\OS C\Xampp\htdocs\craftjog\db.php';
 session_start();
-
+// ffff
 function showRSSFeed($url)
 {
   $xml = simplexml_load_file($url);
