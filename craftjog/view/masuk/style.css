@@ -1,0 +1,54 @@
+.border-frame {
+    padding: 40px;
+    border-radius: 10px;
+}
+
+/* jarak kotak */
+.margin-top {
+    margin-top: 100px;
+}
+
+.container {
+    margin-top: 50px;
+}
+
+.login-space {
+    margin-top: 50px;
+}
+
+.login-input {
+    border: none;
+    border-bottom: 1px solid #D1D1D1;
+    border-radius: 10px;
+    outline: none;
+    height: 40px;
+}
+
+.login-button {
+    margin-top: 30px;
+    border-radius: 50px;
+    width: 300px;
+}
+
+.login-options {
+    margin-top: 0px;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-text {
+    text-decoration: none;
+    /* Tidak ada garis bawah */
+    font-size: 10px;
+    /* Mengubah ukuran font */
+    color: #0D6EFD;
+    /* Opsi: Mengubah warna teks */
+}
+
+.social-icon {
+    font-size: 24px;
+    /* Mengubah ukuran font ikon sosial */
+}

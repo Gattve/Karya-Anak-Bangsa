@@ -1,0 +1,535 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@import url("Jogjakartype.ttf");
+
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: #f8f9fa;
+  font-size: 14px;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar {
+  background: #ffffff;
+  box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.25);
+  margin-bottom: 0;
+  gap: 0;
+}
+
+.nav-list ul li {
+  margin: 0 10px;
+  font-size: 14px;
+}
+
+.navbar-brand {
+  margin-top: 5px;
+  margin-left: 15px;
+}
+
+.navbar-toggler-icon {
+  color: #000000;
+}
+
+.nav-item.dropdown:hover .dropdown-menu {
+  display: block;
+}
+
+.nav-right {
+  display: flex;
+  margin-left: 10px;
+}
+
+.form-inline {
+  display: none;
+  margin-right: 20px;
+}
+
+.navbar-nav.ml-auto {
+  display: flex;
+  align-items: end;
+}
+
+.navbar-nav.ml-auto .nav-item {
+  margin-right: 15px;
+}
+
+/*Footer*/
+.container-fluide.footerk {
+  padding: 1rem 3.5rem;
+  background-color: rgb(237, 237, 237);
+}
+
+.footerk {
+  background-color: rgb(237, 237, 237);
+}
+
+.tagline {
+  font-size: 10px;
+}
+
+.galeri-komunitas,
+.galeri-komunitas * {
+  box-sizing: border-box;
+}
+.galeri-komunitas {
+  background: #ffffff;
+  width: 100%;
+  height: 1117px;
+  position: relative;
+  overflow: hidden;
+}
+.galeri-komunitas2 {
+  color: #000000;
+  text-align: center;
+  font: 700 55px/42px "Lato-Bold", sans-serif;
+  position: absolute;
+  left: calc(50% - 210px);
+  top: 59px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.gabung-bersama-komunitas-yang-akan-meningkatkan-kreatifitas-kamu {
+  color: #000000;
+  text-align: center;
+  font: 400 20px/42px "DmSans-Regular", sans-serif;
+  position: absolute;
+  left: calc(50% - 321px);
+  top: 122px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.frame-jenis {
+  padding: 20px 21px 20px 21px;
+  display: flex;
+  flex-direction: row;
+  gap: 63px;
+  align-items: center;
+  justify-content: center;
+  width: 1380px;
+  position: absolute;
+  left: calc(50% - 690px);
+  top: 158px;
+  overflow: hidden;
+}
+.batik {
+  background: rgba(0, 0, 0, 0.1);
+  border-radius: 30px;
+  padding: 29px 45px 29px 45px;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  height: 60px;
+  position: relative;
+  overflow: hidden;
+}
+.batik2 {
+  color: #000000;
+  text-align: center;
+  font: 500 21px/42px "DmSans-Medium", sans-serif;
+  text-decoration: underline;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.wayang-kulit {
+  color: #000000;
+  text-align: center;
+  font: 500 21px/42px "DmSans-Medium", sans-serif;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.gerabah {
+  color: #000000;
+  text-align: center;
+  font: 500 21px/42px "DmSans-Medium", sans-serif;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.tenun {
+  color: #000000;
+  text-align: center;
+  font: 500 21px/42px "DmSans-Medium", sans-serif;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.anyaman {
+  color: #000000;
+  text-align: center;
+  font: 500 21px/42px "DmSans-Medium", sans-serif;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.kerajinan-batu {
+  color: #000000;
+  text-align: center;
+  font: 500 21px/42px "DmSans-Medium", sans-serif;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.komunitas-1 {
+  background: #f0f0f0;
+  border-radius: 15px;
+  width: 729px;
+  height: 729px;
+  position: absolute;
+  left: 114px;
+  top: 263px;
+  overflow: hidden;
+}
+.kumunitas-1 {
+  width: 729px;
+  height: 486px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+}
+.deskripsi-komunitas-ini-adalah-wadah-bagi-para-pecinta-batik-yang-memiliki-kreativitas-tinggi-mereka-berbagi-ide-desain-dan-pengalaman-dalam-menciptakan-batik-modern-dengan-sentuhan-kreatif-dan-inovatif {
+  color: #000000;
+  text-align: center;
+  font: 400 16px "-", sans-serif;
+  position: absolute;
+  left: calc(50% - 317.5px);
+  top: 560px;
+  width: 636px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.deskripsi-komunitas-ini-adalah-wadah-bagi-para-pecinta-batik-yang-memiliki-kreativitas-tinggi-mereka-berbagi-ide-desain-dan-pengalaman-dalam-menciptakan-batik-modern-dengan-sentuhan-kreatif-dan-inovatif-span {
+  color: #000000;
+  font: 400 italic 16px "DmSans-Italic", sans-serif;
+}
+.deskripsi-komunitas-ini-adalah-wadah-bagi-para-pecinta-batik-yang-memiliki-kreativitas-tinggi-mereka-berbagi-ide-desain-dan-pengalaman-dalam-menciptakan-batik-modern-dengan-sentuhan-kreatif-dan-inovatif-span2 {
+  color: #000000;
+  font: 400 16px "DmSans-Regular", sans-serif;
+}
+.komunitas-batik-kreatif-sleman {
+  color: #000000;
+  text-align: left;
+  font: 700 25px "DmSans-Bold", sans-serif;
+  position: absolute;
+  left: calc(50% - 189.5px);
+  top: 511px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.button-beli {
+  background: #000000;
+  border-radius: 22.5px;
+  padding: 21.75px 9.75px 21.75px 9.75px;
+  display: flex;
+  flex-direction: row;
+  gap: 7.5px;
+  align-items: center;
+  justify-content: center;
+  width: 238.5px;
+  height: 45px;
+  position: absolute;
+  left: calc(50% - 119.5px);
+  top: 658px;
+  box-shadow: 0px 1.5px 3px 0px rgba(0, 0, 0, 0.25);
+  overflow: hidden;
+}
+.gabung-komunitas {
+  color: #ffffff;
+  text-align: center;
+  font: 500 16px/31.5px "DmSans-Medium", sans-serif;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.frame-best {
+  background: #4087b6;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+  width: 194px;
+  height: 42px;
+  position: absolute;
+  left: 70px;
+  top: 31px;
+  overflow: hidden;
+}
+._1-komunitas-terbaik {
+  color: #ffffff;
+  text-align: left;
+  font: 400 16px "DmSans-Regular", sans-serif;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.rectangle-509 {
+  background: rgba(242, 254, 255, 0.14);
+  border-radius: 3px;
+  width: 188px;
+  height: 20px;
+  position: absolute;
+  left: 74px;
+  top: 33px;
+}
+.logo-1 {
+  background: #ffffff;
+  border-radius: 31px;
+  width: 62px;
+  height: 62px;
+  position: absolute;
+  left: calc(50% - 344.5px);
+  top: 20px;
+  overflow: hidden;
+}
+.logo-12 {
+  border-radius: 9.3px;
+  width: 70.06px;
+  height: 70.06px;
+  position: absolute;
+  left: -4.34px;
+  top: -6.2px;
+}
+.vector {
+  height: auto;
+  position: absolute;
+  right: 63.1%;
+  left: 34.29%;
+  width: 2.61%;
+  bottom: 93.42%;
+  top: 3.98%;
+  height: 2.61%;
+  overflow: visible;
+}
+.komunitas-2 {
+  background: #4087b6;
+  border-radius: 15px;
+  width: 349px;
+  height: 349px;
+  position: absolute;
+  left: 879px;
+  top: 263px;
+  overflow: hidden;
+}
+.komunitas-22 {
+  width: 349px;
+  height: 349px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+}
+.logo-2 {
+  background: #ffffff;
+  border-radius: 31px;
+  width: 62px;
+  height: 62px;
+  position: absolute;
+  left: calc(50% - 30.5px);
+  top: calc(50% - 85.5px);
+  overflow: hidden;
+}
+.image-47 {
+  border-radius: 9.3px;
+  width: 70.06px;
+  height: 70.06px;
+  position: absolute;
+  left: -4.34px;
+  top: -6.2px;
+}
+.logo-22 {
+  width: 71.78px;
+  height: 71.78px;
+  position: absolute;
+  left: -4px;
+  top: -7px;
+}
+.komunitas-pengrajin-batik-tradisional {
+  color: #ffffff;
+  text-align: center;
+  font: 400 19px "DmSans-Regular", sans-serif;
+  position: absolute;
+  left: 62px;
+  top: 166px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.button-beli2 {
+  border-radius: 30px;
+  border-style: solid;
+  border-color: #ffffff;
+  border-width: 1px;
+  padding: 29px 13px 29px 13px;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+  width: 239px;
+  height: 45px;
+  position: absolute;
+  left: calc(50% - 119.5px);
+  top: 274px;
+  box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.25);
+  overflow: hidden;
+}
+.gabung-komunitas2 {
+  color: #ffffff;
+  text-align: center;
+  font: 500 16px/42px "DmSans-Medium", sans-serif;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.komunitas-3 {
+  background: #f0f0f0;
+  border-radius: 15px;
+  width: 349px;
+  height: 349px;
+  position: absolute;
+  left: 1264px;
+  top: 263px;
+  overflow: hidden;
+}
+.komunitas-32 {
+  width: 349px;
+  height: 349px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+}
+.logo-3 {
+  width: 71.78px;
+  height: 58px;
+  position: absolute;
+  left: -2px;
+  top: 0px;
+}
+.komunitas-batik-pemuda-kreatif {
+  color: #ffffff;
+  text-align: center;
+  font: 400 19px "DmSans-Regular", sans-serif;
+  position: absolute;
+  left: calc(50% - 108.5px);
+  top: 166px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.komunitas-5 {
+  background: #f0f0f0;
+  border-radius: 15px;
+  width: 349px;
+  height: 349px;
+  position: absolute;
+  left: 1264px;
+  top: 643px;
+  overflow: hidden;
+}
+.komunitas-52 {
+  width: 349px;
+  height: 349px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+}
+.komunitas-batik-wanita-inspiratif {
+  color: #ffffff;
+  text-align: center;
+  font: 400 19px "DmSans-Regular", sans-serif;
+  position: absolute;
+  left: calc(50% - 102.5px);
+  top: 166px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.logo-4 {
+  background: #ffffff;
+  border-radius: 31px;
+  width: 62px;
+  height: 62px;
+  position: absolute;
+  left: calc(50% - 30.5px);
+  top: 89px;
+  overflow: hidden;
+}
+.logo-5 {
+  width: 71.78px;
+  height: 71.78px;
+  position: absolute;
+  left: -5px;
+  top: -6px;
+}
+.komunitas-4 {
+  background: #f0f0f0;
+  border-radius: 15px;
+  width: 349px;
+  height: 349px;
+  position: absolute;
+  left: 879px;
+  top: 643px;
+  overflow: hidden;
+}
+.komunitas-42 {
+  width: 349px;
+  height: 349px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+}
+.komunitas-pecinta-batik-nusantara {
+  color: #ffffff;
+  text-align: center;
+  font: 400 19px "DmSans-Regular", sans-serif;
+  position: absolute;
+  left: 69px;
+  top: 166px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.gabung-komunitas3 {
+  color: #ffffff;
+  text-align: center;
+  font: 500 15px/42px "DmSans-Medium", sans-serif;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.logo-32 {
+  background: #ffffff;
+  border-radius: 31px;
+  width: 62px;
+  height: 62px;
+  position: absolute;
+  left: calc(50% - 30.5px);
+  top: 89px;
+  overflow: hidden;
+}
+.logo-42 {
+  width: 68px;
+  height: 68px;
+  position: absolute;
+  left: -3px;
+  top: -3px;
+}

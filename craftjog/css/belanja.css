@@ -1,0 +1,273 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: #f8f9fa;
+  font-size: 14px;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar {
+  background: #ffffff;
+  box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.25);
+  margin-bottom: 0;
+  gap: 0;
+}
+
+.nav-list ul li {
+  margin: 0 10px;
+  font-size: 14px;
+}
+
+.navbar-brand {
+  margin-top: 5px;
+  margin-left: 15px;
+}
+
+.navbar-toggler-icon {
+  color: #000000;
+}
+
+.nav-item.dropdown:hover .dropdown-menu {
+  display: block;
+}
+
+.nav-right {
+  display: flex;
+  margin-left: 10px;
+}
+
+.form-inline {
+  display: none;
+  margin-right: 20px;
+}
+
+.navbar-nav.ml-auto {
+  display: flex;
+  align-items: end;
+}
+
+.navbar-nav.ml-auto .nav-item {
+  margin-right: 15px;
+}
+
+.carousel {
+  margin-top: 2.3rem;
+  background-image: url("../img/Product-Carousel.png");
+  background-size: cover;
+  background-position: bottom;
+  height: 88vh;
+}
+
+.b-content h1 {
+  font-weight: 600;
+  font-size: 55px;
+}
+
+.b-content p {
+  font-size: 15px;
+  font-weight: 300;
+  margin-bottom: 28px;
+  line-height: 1.6;
+}
+
+.theme-btn {
+  color: white;
+  font-size: 12px;
+  padding: 10px 15px;
+}
+
+.featured {
+  padding: 50px 0;
+}
+
+.s-title h2 {
+  font-weight: 600;
+}
+
+.f-item {
+  background-color: rgb(234, 234, 234);
+  padding: 42px 10px 20px 44px;
+  border-radius: 20px;
+  position: relative;
+  height: 350px;
+  margin-bottom: 24px;
+}
+
+.f-item h6,
+.f-sm-item h6 {
+  font-size: 15px;
+  font-weight: 500;
+  margin-bottom: 14px;
+}
+
+.f-item h3,
+.f-sm-item h3 {
+  font-size: 30px;
+  font-weight: 600;
+}
+
+.f-item a,
+.f-sm-item a {
+  color: tomato;
+  font-weight: 600;
+  position: absolute;
+  bottom: 30px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  transition: 0.5s;
+  opacity: 0;
+}
+
+.f-item:hover a,
+.f-sm-item:hover a {
+  transform: translateY(10px);
+  transition: 0.5s;
+  opacity: 1;
+}
+
+.col-lg-6.img {
+  margin-left: 0;
+  padding-left: 0;
+}
+
+.f-sm-item {
+  background-color: rgb(234, 234, 234);
+  padding: 42px 20px 20px 34px;
+  border-radius: 20px;
+  position: relative;
+  height: 350px;
+  margin-bottom: 24px;
+}
+
+div#catalog.bg-light {
+  margin-top: 20px;
+}
+
+div.card.mb-4 {
+  background-color: #f0f0f0;
+  border: none;
+  border-radius: 20px;
+}
+
+.card-title {
+  font-size: medium;
+  font-weight: 600;
+}
+
+.col-lg-12 h2 {
+  font-weight: 600;
+}
+
+.btn.btn-primary {
+  background-color: black;
+  border-color: #000000;
+}
+
+.btn.btn-outline-primary:hover {
+  background-color: black;
+  color: white;
+}
+
+.btn.btn-outline-primary.active.custom-btn {
+  background-color: black;
+  color: white;
+  border-color: #000000;
+}
+
+.btn.btn-outline-primary {
+  color: #000000;
+  border-color: #000000;
+}
+
+.btn.fs-6 {
+  font-size: 12px;
+  color: #4087b6;
+  text-decoration: underline;
+}
+
+#card-btn,
+#card-btn2 {
+  width: 100%;
+  height: 40px;
+  margin-bottom: 10px;
+}
+
+/* Countdown */
+.wsale {
+  background-color: rgb(240, 240, 240);
+  width: 100%;
+}
+.wsale h2 {
+  font-size: 40px;
+  font-weight: 600;
+}
+#countdown ul li {
+  display: inline-block;
+  font-size: 0.5rem;
+  font-weight: 500;
+  list-style-type: none;
+  padding: 1rem;
+  text-transform: uppercase;
+}
+
+#countdown ul li span {
+  display: block;
+  font-size: 3.5rem;
+}
+
+.form {
+  width: 100%;
+}
+
+.form form input {
+  padding: 8px;
+  width: 360px;
+  border: none;
+  margin-right: 15px;
+}
+
+.subscription {
+  width: 100%;
+}
+
+.col-lg-8 h6 {
+  text-align: center;
+  font-size: 14px;
+  color: gray;
+  letter-spacing: 2px;
+  font-weight: 500;
+}
+
+.col-lg-8 h2 {
+  text-align: center;
+  font-weight: 700;
+  font-size: 35px;
+  line-height: 40px;
+  margin: 30px 0;
+}
+
+.form2 {
+  text-align: center;
+}
+
+.form2 form input {
+  padding: 8px;
+  width: 360px;
+  border: 1px solid lightgray;
+  border-radius: 5px;
+  margin-right: 15px;
+}
+
+.container-fluide.footerk {
+  padding: 1rem 3.5rem;
+  background-color: rgb(237, 237, 237);
+}
+
+.footerk {
+  background-color: rgb(237, 237, 237);
+}
+
+.tagline {
+  font-size: 10px;
+}

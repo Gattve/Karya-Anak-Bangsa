@@ -1,0 +1,114 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: #f8f9fa;
+  font-size: 14px;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar {
+  background: #ffffff;
+  box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.25);
+  margin-bottom: 0;
+  gap: 0;
+}
+
+.nav-list ul li {
+  margin: 0 10px;
+  font-size: 14px;
+}
+
+.navbar-brand {
+  margin-top: 5px;
+  margin-left: 15px;
+}
+
+.navbar-toggler-icon {
+  color: #000000;
+}
+
+.nav-item.dropdown:hover .dropdown-menu {
+  display: block;
+}
+
+.nav-right {
+  display: flex;
+  margin-left: 10px;
+}
+
+.form-inline {
+  display: none;
+  margin-right: 20px;
+}
+
+.navbar-nav.ml-auto {
+  display: flex;
+  align-items: end;
+}
+
+.navbar-nav.ml-auto .nav-item {
+  margin-right: 15px;
+}
+
+/* Gaya untuk banner */
+.banner2 {
+  background-color: rgb(32, 33, 33); /* Warna latar belakang */
+  padding: 50px 0; /* Padding atas dan bawah */
+  height: 250px;
+}
+
+/* Gaya untuk teks judul pada banner */
+.banner2 h1 {
+  font-size: 36px; /* Ukuran font */
+}
+
+/* Gaya untuk teks paragraf */
+.container p {
+  font-size: 16px; /* Ukuran font */
+  line-height: 1.5; /* Jarak antara baris */
+}
+
+/* Gaya untuk judul h3 */
+.container h3 {
+  color: rgb(32, 33, 33); /* Warna teks */
+}
+
+/* Gaya untuk tombol */
+.container button {
+  background-color: rgb(32, 33, 33); /* Warna tombol */
+  color: #fff; /* Warna teks tombol */
+  padding: 10px 20px; /* Padding pada tombol */
+  border: none; /* Menghapus border */
+  border-radius: 5px; /* Border radius untuk sudut tombol */
+  cursor: pointer; /* Mengubah ikon kursor saat mengarahkan ke tombol */
+}
+
+/* Gaya untuk tombol ketika dihover */
+.container button:hover {
+  background-color: rgba(222, 224, 224, 48); /* Warna latar belakang tombol saat dihover */
+}
+
+.marketing .col-lg-3 {
+  margin-top: 5rem;
+  margin-bottom: 1.5rem;
+  text-align: center;
+}
+/* rtl:begin:ignore */
+.marketing .col-lg-3 p {
+  margin-right: 0.75rem;
+  margin-left: 0.75rem;
+}
+
+.container-fluide.footerk {
+  padding: 1rem 3.5rem;
+  background-color: rgb(237, 237, 237);
+}
+
+.footerk {
+  background-color: rgb(237, 237, 237);
+}
+
+.tagline {
+  font-size: 10px;
+}
